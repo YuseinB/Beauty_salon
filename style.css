@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Syncopate);
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+p.indent{
+  letter-spacing: 5px;
+}
+
+p.copy{
+  position: fixed;
+  bottom: 9px;
+  left: 9px;
+  font-size: 14px;
+  border: none;
+  background:inherit;
+  opacity: 0.2;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+h1 {
+  display: inline-block;
+  font-size: 30px;
+  line-height: 0.9;
+  padding: 10px;
+  font-family: 'Syncopate', sans-serif;
+  text-transform: uppercase;
+  background: radial-gradient(
+    circle farthest-corner at center center,
+    white,
+    #111
+  ) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  letter-spacing: 3px;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0 0 10px 0;
+  font-size: 44px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  padding: 50px 20px;
+  height: 100%;
+  width: auto;
+  overflow: scroll;
+  
+}
+
+#Startseite {background-color: gray;}
+#GESICHTSBEHANDLUNGEN {background-color: #77797f;}
+#Contact {background-color: #C7AD8A;}
+#About {background-color: #3E431A;}
+
+/* Call_button class */
+button.call_btn {
+  position: fixed;
+  bottom: 9px;
+  right: 9px;
+  font-size: 24px;
+  padding: 10px 12px 10px 12px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #67aa4e;
+  
+}
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+div.art{
+  height: 13px;
+  width: 142px;
+  background-image: url('art_01.svg');
+  display: inline-block;
+  opacity: 0.5;
+}
